@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decododer text</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header>      
+            <img src="./assets/letra-a-alura.png" alt="letra-a-alura">
+    </header>
+    <main>
+        <section class="block__1">
+            <div class="input">
+                <textarea name="input" cols="44" rows="4" id="text_area_input" placeholder="Digite a sua mensagem"></textarea>
+            </div>
+            <div class="butons__alert__msg">
+                <div id="small__mensage__alert">
+                    <span><img src="./assets/Vector-lupa.png" alt="!">Não digite acentos e nem letras maiusculas</span>
+                </div>
+                <div class="buttons__block">
+                    <button onclick="btnCripotragrafar()" class="buttons">Criptografar</button>
+                    <button onclick="btnDescriptografar()" class="buttons">Descriptografar</button>
+                </div>
+            </div>
+  
+        </section>
+        <section class="block__2">
+            <img id="img_boneco" src="./assets/boneco-com-lupa-alura.svg" alt="boneco-com-lupa-alura">
+                <textarea name="output" id="text__area__output" ></textarea>
+                <div class="img__mensage__decode">
+                    <h3 class="texto__de__alerta">Nenhuma mensagem encontrada</h3>
+                    <p class="texto__de__alerta">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                    <button onclick="btnCopiar()" class="button__copi">Copiar</button>
+                </div>
+        </section>  
+    </main>
+    <footer>
+        <p>Desenvolvido por TL</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+<!-- 
+Título do seu site
+campo para o texto que vai ser criptografado/descriptografado
+botões para fazer a criptografia/descriptografia
+área para exibir o texto resultante. -->

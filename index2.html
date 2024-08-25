@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exibir Texto em Textarea</title>
+</head>
+<body>
+  <!-- Textarea onde o texto será exibido -->
+  <textarea id="myTextarea" rows="4" cols="50"></textarea>
+  
+  <!-- Botão para chamar a função e exibir o texto -->
+  <button onclick="mostrarMensagem()">Mostrar Mensagem</button>
+
+  <!-- Script JavaScript -->
+  <script>
+    // Função que retorna uma string
+    function gerarMensagem() {
+      return "Este é o texto retornado pela função!";
+    }
+
+    // Função que exibe a mensagem no textarea
+    function mostrarMensagem() {
+      // Obtém a mensagem da função
+      const mensagem = gerarMensagem();
+
+      // Obtém o elemento textarea pelo ID
+      const textarea = document.getElementById('myTextarea');
+
+      // Define o valor do textarea com a mensagem retornada
+      textarea.value = mensagem;
+    }
+  </script>
+</body>
+</html>

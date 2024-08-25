@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: #D8DFE8;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;    
+}
+
+
+main{
+    box-sizing: border-box;
+    margin: 40px 40px 40px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header{
+    display: flex;
+    padding-top:40px ;
+
+    
+}
+
+.block__1{
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 37px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+
+}
+
+
+#text_area_input{
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;    
+    font-size: 32px;
+    background-color: #D8DFE8;
+    height: 288px;
+    width: 680px;
+    resize: none;
+    
+}
+
+::placeholder{
+    color:#0A3871;
+}
+#text_area_input:focus{
+    outline: none;
+    
+}
+
+.block__2{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    background-color: white;
+    padding: 32px;
+    border-radius: 32px;
+    
+}
+.buttons__block{
+    display: flex;
+    gap:24px; 
+}
+
+span{
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    gap: 6px;
+    padding: 8px;
+}
+.buttons{
+    background-color: #0A3871;
+    color: white;
+    display: flex;
+    text-align: center;
+    width:328px;
+    padding: 24px;
+    border-radius: 24px;
+    border:none;
+    cursor: pointer;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.buttons:hover{
+    background-color: #011731;
+    
+}
+
+#text__area__output{
+    display: flex;
+    width: 336px;
+    border: none;
+    border-radius: 2px;
+    resize: none;  
+    font-family: "Inter", sans-serif; ;
+    font-size: 18px;
+    font-weight: 400;
+}
+#text__area__output:focus{
+    outline: none;
+}
+
+.img__mensage__decode{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    gap:16px;
+}
+
+.button__copi{
+    box-sizing: border-box;
+    background-color:white ;
+    color: #0A3871;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width:328px;
+    padding: 24px;
+    border-radius: 24px;
+    border:2px solid #0A3871;
+    cursor: pointer;
+}
+
+.button__copi:hover{
+    background-color: #c1d6f1;
+}
+
+footer{
+    background-color: #0A3871;
+    color: white;
+    display: flex;
+    padding: 1%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+}
