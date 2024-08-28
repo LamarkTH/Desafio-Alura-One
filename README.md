@@ -27,4 +27,7 @@ Garantir que os elementos da interface estivessem bem distribuídos e fossem res
 🛠️ Como Executar o Projeto
 Clone este repositório para o seu ambiente local.
 Abra o arquivo index.html em um navegador web.
-Utilize a interface para criptografar e decodificar textos conforme necessário.
+Utilize a interface para criptografar e decodificar textos conforme necessário. 
+Para ver a aplicação em funcionamento, entre no link do vercel : https://desafio-alura-one-three.vercel.app/
+
+
